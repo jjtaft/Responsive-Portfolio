@@ -240,7 +240,7 @@ input[type=submit] {
     width: 100%;
   }
 
-  .container {
+  #main-container {
     top: 40px;
     max-width: 640px;
     width: 100%;
@@ -248,6 +248,7 @@ input[type=submit] {
 
   nav {
     float: left;
+    text-align: center;
   }
 
   .auth-image {
@@ -261,4 +262,21 @@ input[type=submit] {
     width: 100%;
   }
   
+}
+
+@media screen and (max-width: 768px) {
+  
+  .sidebar{
+    float: left;
+    min-width: 641px;
+    max-width: 768px;
+    width: 100%;
+  }
+
+@media screen and (max-width: 960px) {
+  .auth-image{
+    float: left;
+    max-width: 960px;
+    width: 100%;
+  }
 }
