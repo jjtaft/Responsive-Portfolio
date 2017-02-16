@@ -8,7 +8,8 @@ body {
 
 * {
   box-sizing: border-box;
-}
+}  
+
 
 .container {
   clear: both;
@@ -136,8 +137,6 @@ h3,
 }
 
 
-/*main*/
-
 #main-container {
   padding-top: 130px;
 }
@@ -151,9 +150,6 @@ h3,
   background: #fff;
   border: 1px solid #ddd;
 }
-
-
-/*portfolio page*/
 
 .work {
   position: relative;
@@ -194,9 +190,6 @@ h3,
   margin-right: 25px;
   float: left;
 }
-
-
-/*contact page*/
 
 #contact-form ul {
   margin-bottom: 20px;
@@ -241,8 +234,31 @@ input[type=submit] {
   #masthead {
     position: static;
   }
+
+  #logo {
+    max-width: 640px;
+    width: 100%;
+  }
+
   .container {
-  max-width: 640px;
+    top: 40px;
+    max-width: 640px;
+    width: 100%;
+  }
+
+  nav {
+    float: left;
+  }
+
+  .auth-image {
+    max-width: 640px;
+    width: 100%;
+  }
+
+  .sidebar{
+    float: left;
+    max-width: 640px;
+    width: 100%;
   }
   
 }
